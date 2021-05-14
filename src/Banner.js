@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "./axios";
 import requests from "./requests";
 import "./Banner.css";
+// import PlayArrowIcon from '@material-ui/icons/PlayArrow';
+// import PlaylistAddIcon from '@material-ui/icons/PlaylistAdd';
 
 function Banner() {
   const [movie, setMovie] = useState([]);
@@ -19,7 +21,7 @@ function Banner() {
     fetchData();
   }, []);
 
-  console.log(movie);
+  // console.log(movie);
 
   function truncate(str, n) {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;

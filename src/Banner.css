@@ -26,6 +26,7 @@
 }
 
 .banner__button {
+  /* text-align: center; */
   cursor: pointer;
   color: #fff;
   outline: none;

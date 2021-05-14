@@ -1,6 +1,6 @@
 ## Simple netflix clone app using react
 
-live deployed - https://netflix-clone-2b5ce.web.app/
+## live deployed - https://netflix-clone-2b5ce.web.app/
 
 # Getting Started with Create React App
 
